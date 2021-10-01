@@ -3,13 +3,30 @@
 <html lang="en"> <!-- Here I declare what language the document should be in as well as initializing the html document-->
 
     <head> <!-- This is the header where metadata, descriptions, and the title will be located at-->
-       <meta charset="utf-8"> <!-- In this metadata tag, I am declaring what character set to use for the display of the font.  I am using the unversal format of utf-8 -->
-        <title> </title> <!-- The title names the document -->
+       <meta charset="utf-8"/> <!-- In this metadata tag, I am declaring what character set to use for the display of the font.  I am using the unversal format of utf-8 -->
+        <meta name="description" content="A Prototype webpage about monkeys in space"/> <!-- This is the description of the contents of the document.  This document is about monkeys in space -->
+        <meta name="author" content="Christian Johnston"/><!-- This is the meta tag for the author of the document. -->
+        <title>Space Monkeys</title> <!-- The title names the document -->
+         <link rel="stylesheet" href="gordo/css/style.css" type="text/css" /> <!-- this is a link to the stylesheet file of the HTML document, which will provide presentation customization to the document -->
     </head>
-    <style> /*You can use the style tag to create styles for your document.  DONT USE THIS FORMAT*/
-         </style>
-         <link rel="stylesheet" href="gordo/css/style.css" type="text/css" /> <!-- this is the format and link you should be using for your style sheets -->
+
     <body>
-        <a href="../">Course Homepage</a> <!-- this is a link to the previous homepage, ../ takes you one level higher in the file system-->
+        <div class="container">
+            <header class="primary">
+                <h1>Space Monkeys!</h1>
+                </header>
+        <section id="content">
+        <h2>A Brief History of Monkeys in Space</h2>
+        <p>Space is cool.  Monkeys are cool.  What if we combined the two?  Well some scientists back in the 1950's decided to do just that!
+        In the aftermath of World War II, the United States of America entered into a new kind of war, a cold war, in which several countries
+        such as the Union of Soviet Socialist Republics (USSR) and other allied countries engaged in an arms race and by proxy, a
+        technological race as well.  To keep up with growing fears of a Soviet attack, the USA decided they needed new aerospace technology
+        to keep up with soviet advancements in both domestic and military sciences.  Scientists took the concept of the V2 rocket developed
+        by Germany near the end of the war, and started creating their own missles and rockets capable of carrying both destructive and 
+        scientific payloads.  To test these new devices for travel, the countries that were developing the devices used animals to
+        test their viability as a transportation option.</p>
+        </section><!-- #content-->
+        <a href="../">Go back</a> <!-- this is a link to the previous homepage, ../ takes you one level higher in the file system-->
+        </div>
     </body>
 </html>
