@@ -1,0 +1,22 @@
+/*CSS Demo Stylesheet*/
+
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+body{
+    background-color:#c0c0c0;
+    font-family: 'Lato', sans-serif;
+}
+header.primary {
+    background-color:#000000;
+    text-align: center;
+    color:#ffffff;
+    
+}
