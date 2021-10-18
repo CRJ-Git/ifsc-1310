@@ -15,6 +15,20 @@ width:70vw;
 margin:40px auto;
 }
 
+.img-left{
+    float:left;
+    border:1px solid #000000;
+    padding:5px;
+    margin-right:20px;
+}
+.img-center{
+    display:block;
+    margin: 20px auto;
+    border:1px solid #000000;
+    padding:5px;
+}
+/*global styles*/
+
 img{
     max-width: 100%;
     height:auto;
@@ -86,9 +100,11 @@ header nav a:hover{
 }
 
 #content{
-        display:flex;
-        flex-direction:row;
-        justify-content:space-between;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    border-bottom: 1px dotted #000000;
+    padding-bottom: 1.1rem;
 }
 
 #content article.post{
@@ -116,9 +132,12 @@ time.post-date, figcaption, .post-meta{
 .post a{
     color:#0680AF;
 }
+
 .post a:hover, .post a:active{
     text-decoration: none;
 }
+
+
 /*Attribute Selectors*/
 aside[role=complementary]{
     background-color:#808080;
@@ -135,6 +154,65 @@ article.widget{
     width:40%;
 }
 
+article.widget a{
+    color: yellow;
+    display: block;
+}
+
+article.widget footer{
+    display: none;
+}
+
+#colophon {
+    background-color: navy;
+}
+
+#colophon h6{
+    padding: 20px;
+    text-align: center;
+    color: yellow;
+}
+
+#additional-elements {
+    line-height: 1.5;
+    border-bottom:1px dotted #000000;
+}
+
+#additional-elements h2{
+    color: #0680AF;
+}
+
+#additional-elements h3{
+    border-left:8px solid #000000;
+    padding-left: 10px;
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom:40px;
+    border-collapse: collapse;
+}
+
+table caption{
+    
+}
+
+table tr:nth-child(even){
+  background-color: green;
+}
+
+table th{
+    background-color: #c0c0c0;
+    width: 33%;
+    padding: 5px;
+}
+
+table td{
+    border:1px solid black;
+    text-align: center;
+}
+
 /* Media Query Example */
 @media screen and (max-width:700px) {
     header.primary nav ul{
@@ -149,4 +227,7 @@ article.widget{
         margin-bottom: 10px;
     }
 }
+
+/* Use heropatterns.com to get some svg backgrounds for style.  copy the text given
+into whatever attribute you are targeting*/
 
